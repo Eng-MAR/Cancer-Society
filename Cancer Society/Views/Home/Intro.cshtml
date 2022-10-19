@@ -3,3 +3,28 @@
 *@Introduction
 @{
 }
+<div>
+<h3>Muhammad Abdul Rahman</h3>
+
+    <br>
+    <label>Enter Number 1</label><br>
+    <input type="text" id="num1" /><br>
+    <label>Enter Number 2</label><br>
+    <input type="text" id="num2" /><br><br>
+
+    <button onclick="add()">Submit</button><br>
+
+    <label>Result</label><br>
+    <input type="text" id="output" readonly /><br><br>
+
+
+    <script>
+        function add() {
+            var num1 = parseFloat(document.getElementById("num1").value)
+            var num2 = parseFloat(document.getElementById("num2").value)
+            var num1 = parseFloat(document.getElementById("output").value = num1 + num2)
+
+        }
+    </script>
+    </div>
+
